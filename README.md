@@ -83,6 +83,7 @@ Random forest	           0.8351	                   0.7972
 XGBRegressor	          0.8108	                   0.8056
 
 | model  | Train R2-score | validation R2-score |
+| :---         |     :---:      |          ---: |
 | Ridge | 0.7298 |0.7311 |
 | Random forest	  | 0.8351l  |0.7972 |
 | Content XGBRegressor  | 0.8108  |0.8056 |
