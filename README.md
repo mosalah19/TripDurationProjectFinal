@@ -35,7 +35,7 @@ It provides the service provider with all the following:
 ```
 •	71% of  trips had 1 passenger and 14 % trips  had 2 passengers and 5 % of  trips had 3 passengers.
 •	There are two trips have 7 passengers.
-•	 some trips that have zero passenger (38 trips)
+•	some trips that have zero passenger (38 trips)
 ```
 ### Longitude and latitude 
 ```
@@ -62,15 +62,14 @@ store_and_fwd_flag:
 •	The number of trips increases at noon and in the evening than at any other time.
 •	The number of flights increases on Friday, Saturday, and         Thursday of each week.
 •	The speed of vehicles increased between night and late at              night.
-•	    The speed of vehicles increased on Sunday and Saturday
-•	    The speed of vehicles increased in the months of 5 and 6
-•	 The speed of vehicles increased on holiday days than on   other days.
+•	he speed of vehicles increased on Sunday and Saturday
+•	The speed of vehicles increased in the months of 5 and 6
+•	The speed of vehicles increased on holiday days than on   other days.
 ```
 
 ## add new feature from The Open-Source Routing Machine (OSRM) dataset.
 ```
 	There are many columns that can help him predict like total_distance , total_travel_time , number_of_steps 
-
 	 You can also verify this by merging with the main dataset by column ID.
 
 ```
@@ -78,7 +77,9 @@ store_and_fwd_flag:
 ```
 •	total_distance has negative skew
 •	most distance is between 0 and 5000 metre
-        total travel time:
+```
+### total travel time:
+```
 •	total travel time has negative skew.
 •	most total travel time is between 0 and 16 minutes.
 ```
