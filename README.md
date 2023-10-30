@@ -76,10 +76,17 @@ store_and_fwd_flag:
 •	number_of_steps have negative skew.
 •	most number_of_steps is between 1.5 and 2.5 steps
 
-
+## modeling performance 
 model	               Train R2-score	       validation R2-score
 Ridge	                   0.7298               	   0.7311
 Random forest	           0.8351	                   0.7972
 XGBRegressor	          0.8108	                   0.8056
 
+| model  | Train R2-score | validation R2-score |
+| Ridge | 0.7298 |0.7311 |
+| Random forest	  | 0.8351l  |0.7972 |
+| Content XGBRegressor  | 0.8108  |0.8056 |
+
+Source:
+Kaggle : https://www.kaggle.com/c/nyc-taxi-trip-duration/data
 
